@@ -12,10 +12,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="./font awesome/fontawesome-free-6.4.0-web/css/all.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -24,16 +21,14 @@
     <div class="main-container">
       <header>
         <nav>
-          <img
+            <a href="#hebergements">Hébergements</a>
+            <a href="#activites">Activités</a>
+        </nav>
+        <img
             class="logo-booki"
             src="./images/logo/Booki.png"
             alt="Logo du site Booki"
           />
-          <div>
-            <a href="">Hébergements</a>
-            <a href="">Activités</a>
-          </div>
-        </nav>
       </header>
       <main>
         <section>
@@ -41,30 +36,19 @@
             Trouvez votre hébergement pour des vacances de rêve
           </h1>
           <p>En plein centre-ville ou en pleine nature</p>
-          <div class="formulaire">
-            <div>
-                <i
-              class="fa-solid fa-location-dot fa-lg localisation"
-              style="color: #000000"
-            ></i>
-            </div>
-            <div>
-            <form method="get" action="">
+            <form class="formulaire" method="get" action="#">
+                <label for="ville"><i
+                    class="fa-solid fa-location-dot fa-lg localisation"
+                  ></i></label>
               <input
                 class="ville"
                 type="search"
                 name="ville"
                 id="ville"
-                value="Marseille, France"
-                size="20"
-                maxlength="20"
+                placeholder="Marseille, France"
               />
-            </div>
-            <div>
               <input class="SearchButton" type="submit" value="Rechercher" />
-              </div>
             </form>
-          </div>
         </section>
 
         <div class="hebergements-and-populaires">
