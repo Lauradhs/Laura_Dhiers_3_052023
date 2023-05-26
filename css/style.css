@@ -86,12 +86,12 @@ p {
     margin-bottom: 35px;
 }
 
-.formulaire {
+.form-direction {
     display:flex;
     flex-direction:row;
 }
 
-.localisation {
+.location {
     display: flex;
     border: 0px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;   
@@ -104,11 +104,11 @@ p {
     color: black;
 }
 
-.labelville {
+.label-city {
     width: 50px;
 }
 
-.ville {
+.city {
     padding: 14px 24px 14px 24px;
     height:49px;
     font-size: 18px;
@@ -139,14 +139,14 @@ h2 {
     font-size: 18px;
 }
 
-.filtres {
+.filters {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
 }
 
-.FiltresButton {
+.FiltersButton {
     font-size: 17px;
     font-weight: bolder;
     color: black;
@@ -156,7 +156,7 @@ h2 {
     padding: 15px 15px 15px 15px;
 }
 
-.FiltresButton:hover {
+.FiltersButton:hover {
     background: #DEEBFF;
 }
 
@@ -271,7 +271,7 @@ footer a {
     margin-top: 8px;
 }
 
-.afficher {
+.hebergements-link {
     text-decoration: none;
     color: black;
     font-size: 18px;
